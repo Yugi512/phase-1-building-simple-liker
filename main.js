@@ -4,6 +4,18 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+let hidden = document.getElementById('modal')
+hidden.classList.add('hidden')
+
+function likeChanger(e){
+  const heart = e.target;
+  mimicServerCall()
+  .then(e.addEventListener('click',function(servermessage){
+    
+  }))
+
+}
+let x = document.body 
 
 
 
@@ -23,3 +35,4 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+                                                      
